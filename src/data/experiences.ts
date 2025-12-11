@@ -1,0 +1,87 @@
+import { IExperienceItem } from "@/types";
+
+const experiences: IExperienceItem[] = [
+  {
+    designation: "Business Intelligence Engineer",
+    company: "Radius Recycling",
+    startDate: "Nov 2024",
+    isCurrentJob: true,
+    location: "Portland, Oregon",
+    description: [
+        "Designing scalable data engineering solutions using Azure, SQL, Python, and Databricks to support high-quality analytics.",
+        "Building impactful Power BI dashboards and AI-driven insights that improve decision-making and deliver measurable cost savings.",
+        "Developing advanced GenAI and RAG solutions, including a Databricks Agentic AI Knowledge Assistant to streamline compliance analysis.",
+        "Collaborating with cross-functional teams across finance, transportation, safety, and operations to deliver self-service analytics.",
+        "Driving automation and optimization initiatives such as Microsoft Fabric writeback, reducing reporting costs and enhancing efficiency.",
+        "Mentoring junior team members while contributing to platform improvements and innovation across AI and BI ecosystems.",
+    ],
+  },
+  {
+    designation: "Business Intelligence Developer",
+    company: "Texas A&M University",
+    startDate: "Sep 2022",
+    endDate: "May 2024",
+    isCurrentJob: false,
+    location: "Commerce, TX",
+    description: [
+      "Built scalable ETL workflows in Azure Data Factory to process user logins, attendance, and membership data with a strong focus on service quality and operational security.",
+      "Engineered reusable data models that support analytics for facility usage, program participation, and user segmentation.",
+      "Developed Power BI dashboards highlighting peak hours, activity trends, and class engagement, enabling more strategic planning and data-driven decisions.",
+      "Implemented robust data privacy measures using RBAC and masked SQL views in collaboration with IT teams.",
+      "Automated data refresh processes using parameterized ADF pipelines and scheduled Power BI gateway configurations.",
+      "Improved member engagement by 20% by identifying underutilized time slots and recommending new activities, while reducing ad-hoc reporting requests by 70% through self-service BI tools.",
+      "Leveraged Azure Databricks to automate reporting workflows, reducing manual effort by 80% and accelerating access to key operational insights.",
+    ],
+  },
+  {
+    designation: "Data Engineer",
+    company: "Tata Consultancy Services",
+    startDate: "Dec 2021",
+    endDate: "Aug 2022",
+    isCurrentJob: false,
+    location: "Hyderabad, India",
+    description: [
+      "Ingested data from MySQL, Oracle, Azure SQL, and flat files into ADLS Gen2 and delivered curated datasets in Snowflake to support BI and analytics use cases.",
+      "Built and optimized Medallion architecture layers using PySpark and Delta Lake, improving modularity and boosting query performance by 40%.",
+      "Developed dimensional models, implemented SCDs, standardized schemas, and added anomaly detection to ensure reliable and consistent reporting.",
+      "Enhanced Databricks performance by optimizing joins, applying caching strategies, and using Z-Ordering to reduce query times by 25%.",
+      "Supported CI/CD workflows with Azure DevOps, collaborating with Data Admins and monitoring pipeline performance via Spark UI, logs, and partition-based tuning.",
+      "Worked closely with Data Scientists, QA teams, and business stakeholders to build production-grade pipelines with automated validation, quality checks, and unit tests.",
+      "Strengthened platform security with Azure Key Vault, Unity Catalog access policies, and data masking to protect PII and maintain governance and lineage.",
+      "Resolved real-time data pipeline issues, reducing incident response time by 35% and ensuring high availability of mission-critical workflows.",
+    ],
+  },
+  {
+    designation: "Data Engineer",
+    company: "Tata Consultancy Services",
+    startDate: "Nov 2020",
+    endDate: "Nov 2021",
+    isCurrentJob: false,
+    location: "Hyderabad, India",
+    description: [
+      "Developed and maintained ETL pipelines using SSIS, SQL, and Databricks to process data from MySQL, Oracle, and Delta Lake, ensuring high data accuracy and enterprise-wide availability.",
+      "Implemented ADLS replication and failover strategies to support real-time analytics for safety audits, asset utilization, and transportation metrics, leveraging strong knowledge of the Hadoop ecosystem.",
+      "Contributed to building a centralized data warehouse to enable historical freight rate analysis, equipment maintenance insights, and safety compliance tracking.",
+      "Created Power BI reports for route optimization, equipment downtime, and incident tracking, applying strong analytical and troubleshooting skills to support business decision-making.",
+      "Performed performance tuning across SQL and Spark workloads, achieving a 40% improvement in data processing efficiency.",
+      "Automated deployments using CI/CD pipelines with Git and Azure DevOps, including ADF code promotion via ARM templates to enhance release reliability.",
+      "Monitored pipeline performance using Spark UI and integrated alerting, ensuring quick issue resolution and reliable delivery of analytics to finance, health, EAM, and transportation teams.",
+    ],
+  },
+  {
+    designation: "Data Analyst Intern",
+    company: "UrbanJet Hospitality Services",
+    startDate: "Jan 2019",
+    endDate: "Jun 2020",
+    isCurrentJob: false,
+    location: "Hyderabad, India",
+    description: [
+      "Designed and optimized semantic data models using Power Query and DAX, ensuring data integrity, accuracy, and strong alignment with customer requirements.",
+      "Performed exploratory data analysis and built SSIS packages to streamline data integration workflows, incorporating Row-Level Security to safeguard sensitive information.",
+      "Applied strong problem-solving, communication, and organizational skills to resolve complex data and reporting challenges while effectively managing multiple priorities and deadlines.",
+      "Collaborated closely with teams using a friendly and resourceful approach, leading retrospective sessions to capture best practices and continuously enhance the SDLC process.",
+    ],
+  },
+];
+
+export default experiences;
