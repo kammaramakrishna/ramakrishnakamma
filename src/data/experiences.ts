@@ -20,7 +20,6 @@ const experiences: IExperienceItem[] = [
     designation: "Business Intelligence Engineer",
     company: "Radius Recycling",
     startDate: "Nov 2024",
-    isCurrentJob: true,
     endDate: "Mar 2026",
     isCurrentJob: false,
     location: "Portland, Oregon",
