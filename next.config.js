@@ -15,8 +15,13 @@ const nextConfig = {
 };
 
 module.exports = withSentryConfig(nextConfig, {
+<<<<<<< HEAD
   org: "Personal Portfolio",
   project: "Rama Krishna Kamma",
+=======
+  org: "ramakrishna",
+  project: "javascript-nextjs",
+>>>>>>> 7f8c69059cb9778cfc9ce309bc6660dd5c1b3e81
   authToken: process.env.SENTRY_AUTH_TOKEN,
   silent: false,
 });

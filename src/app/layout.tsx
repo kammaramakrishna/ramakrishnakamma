@@ -79,6 +79,7 @@ export const metadata: Metadata = {
   ],
 };
 
+<<<<<<< HEAD
 const GoogleAnalytics = dynamic(
   () => import("@/components/common/GoogleAnalytics"),
   { ssr: false }
@@ -86,6 +87,15 @@ const GoogleAnalytics = dynamic(
 const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
   ssr: false,
 });
+=======
+// const GoogleAnalytics = dynamic(
+//   () => import("@/components/common/GoogleAnalytics"),
+//   { ssr: false }
+// );
+// const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
+//   ssr: false,
+// });
+>>>>>>> 7f8c69059cb9778cfc9ce309bc6660dd5c1b3e81
 const FloatingNavbar = dynamic(
   () => import("@/components/navbar/FloatingNavbar")
 );
@@ -96,10 +106,17 @@ const isDebug = process.env.NODE_ENV === "development";
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en" className={poppins.className}>
+<<<<<<< HEAD
       {isDebug ? null : <GoogleAnalytics />}
 
       <body className={isDebug ? "debug-screens" : ""}>
         {isDebug ? <WebVitals /> : null}
+=======
+      {/* {isDebug ? null : <GoogleAnalytics />} */}
+
+      <body className={isDebug ? "debug-screens" : ""}>
+        {/* {isDebug ? <WebVitals /> : null} */}
+>>>>>>> 7f8c69059cb9778cfc9ce309bc6660dd5c1b3e81
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
         <ScrollToTop />
