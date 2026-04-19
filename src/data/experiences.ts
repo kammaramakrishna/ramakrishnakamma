@@ -1,11 +1,28 @@
 import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
+    {
+    designation: "Data Engineer",
+    company: "Optum",
+    startDate: "Mar 2026",
+    isCurrentJob: true,
+    location: "Minneapolis, Minnesota",
+    description: [
+        "Migrated legacy Informatica MCP workflows to Databricks PySpark, replacing single-node ETL mappings with distributed transformations improving scalability, maintainability, and processing performance.",
+        "Built coverage interval splitting pipeline in PySpark to clamp member date ranges into monthly reporting windows and distribute premium values proportionally using window functions and date arithmetic.",
+        "Engineered HHS enrollment data pipeline processing subscriber and dependent records through one-day premium checks, pharmacy/medical claims verification, soft exclusions (DOB/gender anomalies), and hard exclusions (invalid premiums).",
+        "Developed EPAI code assignment and age recalculation logic (codes 001 / 021028 / special) with CPIN validation across reporting year migrations for accurate HHS Risk Adjustment submissions.",
+        "Partnered with compliance and business stakeholders to translate CMS/HHS regulatory requirements into validated PySpark transformations, ensuring timely and accurate annual EDGE Server submissions.",
+        "Mentoring junior team members while contributing to platform improvements and innovation across AI and BI ecosystems.",
+    ],
+  },
   {
     designation: "Business Intelligence Engineer",
     company: "Radius Recycling",
     startDate: "Nov 2024",
     isCurrentJob: true,
+    endDate: "Mar 2026",
+    isCurrentJob: false,
     location: "Portland, Oregon",
     description: [
         "Designing scalable data engineering solutions using Azure, SQL, Python, and Databricks to support high-quality analytics.",
