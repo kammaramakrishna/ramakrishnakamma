@@ -1,8 +1,6 @@
 import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
-<<<<<<< HEAD
-=======
     {
     designation: "Data Engineer",
     company: "Optum",
@@ -18,17 +16,13 @@ const experiences: IExperienceItem[] = [
         "Mentoring junior team members while contributing to platform improvements and innovation across AI and BI ecosystems.",
     ],
   },
->>>>>>> 8b79df1 (Updated experience section)
   {
     designation: "Business Intelligence Engineer",
     company: "Radius Recycling",
     startDate: "Nov 2024",
-<<<<<<< HEAD
     isCurrentJob: true,
-=======
     endDate: "Mar 2026",
     isCurrentJob: false,
->>>>>>> 8b79df1 (Updated experience section)
     location: "Portland, Oregon",
     description: [
         "Designing scalable data engineering solutions using Azure, SQL, Python, and Databricks to support high-quality analytics.",
