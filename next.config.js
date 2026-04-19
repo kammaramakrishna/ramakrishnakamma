@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
 const { withSentryConfig } = require("@sentry/nextjs");
-
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -13,7 +12,6 @@ const nextConfig = {
     ],
   },
 };
-
 module.exports = withSentryConfig(nextConfig, {
 <<<<<<< HEAD
   org: "Personal Portfolio",
